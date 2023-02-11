@@ -18,14 +18,14 @@
 - git annotate. Mostramos quien ha hecho los cambios sobre un fichero especificado.
 
 
-### Ejercicios de deshacer cambios
+### Ejercicios de deshacer cambios.
 - git checkout -- nombre.txt. Deshacemos los cambios realizados en un fichero para volver a su anterior versión.
 - git reset nombre.txt. Quitamos los cambios de la zona de intercambio temporal, pero los mantendremos en el directorio local.
 - git clean -f. Desacemos los cambios realizados para volver a la versión del repositorio.
 - git reset --hard HEAR~1. Volvemos al ultimo commit y los cambios anteriores del directorio volverán a la version anterior.
 
 
-### Ejercicios de gestión de ramas
+### Ejercicios de gestión de ramas.
 - git branch. Creamos una nueva rama
 - git branch -av. Mostramos las ramas del repositorio.
 - git log --graph --all --oneline. Mostramos la historia del repositorio incluyendo todas las ramas.
@@ -33,7 +33,7 @@
 - git merge nombre. Fusionamos la rama con la rama Master.
 
 
-### Ejercicios de repositorios remotos
+### Ejercicios de repositorios remotos.
 - git remote add github url. Añadimos el repositorio local a Git.
 - git remote -v. Mostramos los repositorios remotos configuramos.
 - git push github master. Añadimos los cambios del repositorio local al repositorio remoto de Git.
