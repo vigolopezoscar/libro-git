@@ -38,3 +38,4 @@
 - git remote -v. Mostramos los repositorios remotos configuramos.
 - git push github master. Añadimos los cambios del repositorio local al repositorio remoto de Git.
 - git clone url. Con este comando podemos descargar el repositorio remoto a local en nuestro ordenador.
+- git pull. Traemos los cambios del repositorio remoto al repositorio local.
